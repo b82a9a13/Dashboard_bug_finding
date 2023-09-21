@@ -1,6 +1,6 @@
 <?php
 $capabilities = [
-    'local/dashboard:coach' => [
+    'block/dashboard:coach' => [
         'riskbitmask' => RISK_SPAM,
         'captype' => 'write',
         'contextlevel' => CONTEXT_COURSE,
@@ -9,7 +9,7 @@ $capabilities = [
             'editingteacher' => CAP_ALLOW
         ]
     ],
-    'local/dashboard:learner' => [
+    'block/dashboard:learner' => [
         'riskbitmask' => RISK_SPAM,
         'captype' => 'write',
         'contextlevel' => CONTEXT_COURSE,
@@ -17,7 +17,7 @@ $capabilities = [
             'student' => CAP_ALLOW
         ]
     ],
-    'local/dashboard:admin' => [
+    'block/dashboard:admin' => [
         'riskbitmask' => RISK_SPAM,
         'captype' => 'write',
         'contextlevel' => CONTEXT_SYSTEM,

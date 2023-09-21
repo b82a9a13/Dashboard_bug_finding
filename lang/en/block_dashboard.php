@@ -8,8 +8,10 @@
  */
 
 //A
+    $string['admin_d'] = 'Admin Zone';
 //B
 //C
+    $string['coach_d'] = 'Coach Zone';
 //D
     $string['dashboard'] = 'Dashboard';
 //E
@@ -19,6 +21,7 @@
 //I
 //J
 //L
+    $string['learner_d'] = 'Learner Zone';
 //M
 //N
 //O
